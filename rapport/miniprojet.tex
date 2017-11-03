@@ -1,0 +1,201 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wenneker Article
+% LaTeX Template
+% Version 2.0 (28/2/17)
+%
+% This template was downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Vel (vel@LaTeXTemplates.com)
+% Frits Wenneker
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt, a4paper, twocolumn]{article} % 10pt font size (11 and 12 also possible), A4 paper (letterpaper for US letter) and two column layout (remove for one column)
+
+\input{structure.tex} % Specifies the document structure and loads requires packages
+\newcommand{\specialcell}[2][c]{%
+  \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+%----------------------------------------------------------------------------------------
+%	ARTICLE INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Vision Team Project Proposal :\\ What the hell is that ?} % The article title
+
+\author{
+	%\authorstyle{No one\textsuperscript{1,2,3} and One No\textsuperscript{2,3}} % Authors
+	%\newline\newline % Space before institutions
+	%\textsuperscript{1}\institution{University Paris Sud, Orsay, France}\\ % Institution 1
+	%\textsuperscript{2}\institution{University of Texas at Austin, Texas, United States of America}\\ % Institution 2
+	%\textsuperscript{3}\institution{\texttt{LaTeXTemplates.com}} % Institution 3
+}
+
+% Example of a one line author/institution relationship
+%\author{\newauthor{John Marston} \newinstitution{Universidad Nacional Autónoma de México, Mexico City, Mexico}}
+
+\date{\today} % Add a date here if you would like one to appear underneath the title block, use \today for the current date, leave empty for no date
+
+%----------------------------------------------------------------------------------------
+\usepackage{float}
+\begin{document}
+
+\maketitle % Print the title
+
+\thispagestyle{firstpage} % Apply the page style for the first page (no headers and footers)
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+\section{Background}
+%\citep{}
+\lettrineabstract{With the development of automatic  transport means (trains, cars, boats, ...), it is necessary to identify the elements detected by the cameras in order to act accordingly. Indeed, the device will not act in the same way if it detects a frog or if it detects a horse for example. The idea of this project is to be able to detect entities that can be found when traveling by rail, sea or road. The recognition of these entities is therefore essential if we want to achieve intelligent and safe autonomous transport.
+%Avec le développement des moyens de transports automatiques(trains, voitures, bateaux, ...), il est nécessaire d'identifier les éléments détectes par les caméras afin de pouvoir agir en conséquence. En effet, l'appareil n'agira pas de la même manière s'il detecte une grenouille ou s'il detecte un cheval par exemple.  L'idée de ce projet est d'être capable de détecter des entitées que l'on peut retrouver lors de trajet ferroviaire, maritime ou bien routier. La reconnaissance de ces entitées est ainsi primordiale si l'on veut pouvoir réaliser des transports autonomes intelligents et sûres. 
+}
+
+%------------------------------------------------
+
+
+
+%------------------------------------------------
+
+\section{Material and Methods}
+
+\subsection{Data description}
+The dataset used for this project is CIFAR10 [\cite{1}](Figure \ref{fig:cifar10}) which is composed of 60 000 images of size 32 x 32 representing 10 labels of animals and means of transport.  The datasets is divided as follows: 40 000 for the training step, 10 000 for the testing step and 10 000 for the validation step. Each set is balance distributed (Table~\ref{tab1}).
+\begin{table}
+\begin{tabular}{|l|c|c|c|c|}
+  \hline
+  Labels & Train & Test & Validation & Total\\
+  \hline
+  airplane & 4000 & 1000 & 1000 & 6000 \\
+  \hline
+  automobile & 4000 & 1000 & 1000 & 6000\\
+  \hline
+  bird & 4000 & 1000 & 1000 & 6000\\
+  \hline
+  cat & 4000 & 1000 & 1000 & 6000\\
+  \hline
+  deer & 4000 & 1000 & 1000 & 6000\\
+  \hline
+  dog & 4000 & 1000 & 1000 & 6000\\
+  \hline
+  frog & 4000 & 1000 & 1000 & 6000\\
+  \hline
+  horse & 4000 & 1000 & 1000 & 6000\\
+  \hline
+  ship & 4000 & 1000 & 1000 & 6000 \\
+  \hline
+  truck & 4000 & 1000 & 1000 & 6000\\
+  \hline
+\end{tabular}
+\caption{\label{tab1} Distribution of each set : train, validation, set}
+\end{table}
+
+
+\subsection{Preprocessing}
+Before classifying the different images of our dataset, we need to preprocess the images, extracting the features, which will permits us to classify them more precisely. In fact, classifying directly the images will gives us bad results (Table \ref{tab2}), which is why extract features are necessarily.  Different features are used like HoG. But we decide to use convolutional neural network used in Deep Learning [\cite{2}].  We use the MobileNet [\cite{3}] architecture of Google on the Keras Framework, and we added some layers so as to reduce the size of the features to 256. We do not want to take features bigger than 256 because the computation time will increase for the different algorithm of classification. We do not want to reduce too much the features because we think that we might lose some potential features which can be useful for the classification task.  Regarding the architecture, MobileNet is a good feature extractor because it is a fast and soft model (so our personal computer is powerful enough) with a good accuracy on ImageNet. This is why we use it. We save 256 features for each image in CIFAR10 in the AutoML format. 
+
+\subsection{Method}
+We consider our problem as a multi label classification therefore each image is associated to a label value between 0 and 9 included. The final step is to use a machine learning algorithm(using skicit learn for example) so as to be able to predict the class of an image. There are a lot of machine learning algorithm permitting to solve this problem so student have to classify the features with different models and choose the best they obtain. (Naives bayes, SVM, tree, …).
+If the student is familiar with the keras framework, he/she can also classify features with a simple neuronal network ! \\The set of data (features) have 256 dimensions and can be subject to a reduction of dimension in order to limit the training time of the models and to limit the difficulty associated to the Curse of Dimensionality. As we can see on the figure \ref{fig:graph_1}, using  principal component analysis (PCA), it is possible to lessen the number of features (about $73\%$ is conserved keeping only 10 dimensions, and about $80\%$ is conserved keeping only 20 dimensions). The reduction of dimension is an important pre-processing step and even if it is not essential to get
+results on this dataset, it permits to save learning time on model which is non-negligible.
+\\
+\begin{table}
+\hspace{-1.0cm}
+\begin{tabular}{|l|c|c|c|c|}
+  \hline
+  Model & Accuracy & Recall & Precision & F1\\
+  \hline
+  Tree & 0.22 & 0.22 & 0.22 & 0.22\\
+  \hline
+  Random Forest & 0.21 & 0.20 & 0.21 & 0.15\\
+  \hline
+  \specialcell{Naives Bayes \\Gaussian} & \textbf{0.27} & \textbf{0.28} & \textbf{0.27} & \textbf{0.25}\\
+  \hline
+  \specialcell{Naives Bayes \\ Multinomial} & 0.24 & 0.25 & 0.24 & 0.22\\
+  \hline
+\end{tabular}
+\caption{\label{tab2}Classification's result without extraction features}
+\end{table}
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{cifar10.jpg} % Figure image
+	\caption{\label{fig:cifar10}Representation of the dataset Cifar10} % Figure caption
+	 % Label for referencing with \ref{bear}
+\end{figure}
+\section{Preliminary results}
+In this experiment, we tested differents models and compared their performance (Table \ref{tab3}). We note that SVMs models are very efficient on the features extracted by the convolutional neural network but it takes some time to construct the model contrary to the others models like tree or random forest which have lowest performances but they are faster to learn. However, the computing time of the prediction is fast for all the models.
+
+
+\begin{table}[H]
+\hspace{-0.3cm}
+\begin{tabular}{|l|c|c|c|c|c|}
+  \hline
+  Model & Accuracy & Recall & Precision & F1 & \specialcell{Time \\(sec)}\\
+  \hline
+  Tree & 0.797 & 0.798 & 0.797 & 0.797 & 16.73\\
+  \hline
+  \specialcell{Random\\ Forest} & 0.831 & 0.829 & 0.831 & 0.830 & 33.42\\
+  \hline
+  \specialcell{Naives Bayes \\Gaussian} & 0.853 & 0.856 & 0.853 & 0.854 & 0.198\\
+  \hline
+  \specialcell{Naives Bayes \\ Multinomial} & 0.866 & 0.869 & 0.866 & 0.867 & \textbf{0.06}\\
+  \hline
+   SVM rbf &\textbf{ 0.888} & \textbf{0.888} & \textbf{0.888} & \textbf{0.888} & 87.49\\
+   \hline
+   SVM Linear & 0.871 & 0.872 & 0.871 & 0.872 & 173.15\\
+   \hline
+   SVM Poly & 0.886 & 0.887 & 0.886 & 0.886 & 66.24\\
+   \hline
+\end{tabular}
+\caption{\label{tab3}Classification's result with extraction features on the test set}
+\end{table}
+The results associated with the learning on the data processed by PCA are available on the
+figure \ref{fig:graph_1}. As we can see, performances are very similar to learning on the initial features (see table \ref{tab3} and figure \ref{fig:graph_1}) when the dimension is superior to 10. The use of PCA (or other method of reducing
+dimension) is left to the student's sensitivity because this stage of pre-processing is a matter of
+good understanding about how to learn a dataset. However this step is  not mandatory considering the potential lacking experience of the student.
+\begin{figure}[H]
+\center
+	\includegraphics[scale=0.4]{graph_1.png} % Figure image
+	\caption{\label{fig:graph_1}Graph representing F1 score depending of the number of dimension} % Figure caption
+	 % Label for referencing with \ref{bear}
+\end{figure}
+
+\begin{figure}[H]
+\center
+	\includegraphics[scale=0.4]{graph_2.png} % Figure image
+	\caption{\label{fig:graph_2}Graph representing the training time depending of the number of dimension. In blue, the training time of the SVM linear model depending of the number of features, in orange the training time of the SVM linear on the original features(256)} % Figure caption
+	 % Label for referencing with \ref{bear}
+\end{figure}
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+
+
+\begin{thebibliography}{abcde}
+	\bibitem[1]{cifar} https://www.cs.toronto.edu/~kriz/cifar.html
+    \bibitem[2]{convnet} "CNN Features off-the-shelf: an Astounding Baseline for Recognition", Ali Sharif Razavian et al, 2014.
+ 
+    \bibitem[3]{mobilenet} "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications" ,Andrew G. Howard, Menglong Zhu et al, 2017.
+\end{thebibliography}
+%\printbibliography[title={Bibliography}] % Print the bibliography, section title in curly brackets
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
