@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.1)  7 NOV 2017 19:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.1)  7 NOV 2017 20:27
 entering extended mode
 **./miniprojet.tex
 (miniprojet.tex
@@ -1627,48 +1627,47 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 fg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
+Overfull \hbox (3.60977pt too wide) in paragraph at lines 91--118
+[][] 
+ []
+
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 116.
+(Font)              scaled to size 9.0pt on input line 118.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 116.
+(Font)              scaled to size 9.0pt on input line 118.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 116.
+(Font)              scaled to size 9.0pt on input line 118.
+
+LaTeX Warning: Citation '2' on page 1 undefined on input line 123.
 
 
-LaTeX Warning: Citation '2' on page 1 undefined on input line 121.
-
-
-LaTeX Warning: Citation '3' on page 1 undefined on input line 121.
+LaTeX Warning: Citation '3' on page 1 undefined on input line 123.
 
 [1{C:/Users/Shiro/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 126--130
+
+ []
+
+
+Overfull \hbox (7.98999pt too wide) in paragraph at lines 150--166
+[]  [] 
+ []
+
 <cifar10.jpg, id=9, 359.09157pt x 278.54062pt>
 File: cifar10.jpg Graphic file (type jpg)
  <use cifar10.jpg>
-Package pdftex.def Info: cifar10.jpg used on input line 129.
+Package pdftex.def Info: cifar10.jpg used on input line 169.
 (pdftex.def)             Requested size: 231.88997pt x 179.8762pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--131
-
- []
-
-
-Overfull \hbox (20.20268pt too wide) in paragraph at lines 133--147
+Overfull \hbox (50.65681pt too wide) in paragraph at lines 177--197
 []  [] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (50.65681pt too wide) in paragraph at lines 156--176
-[]  [] 
- []
-
-
-Overfull \hbox (207.4865pt too wide) in paragraph at lines 180--206
+Overfull \hbox (207.4865pt too wide) in paragraph at lines 201--227
 []  [] 
  []
 
@@ -1678,7 +1677,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <graph_1.png, id=10, 390.45876pt x 266.9975pt>
 File: graph_1.png Graphic file (type png)
  <use graph_1.png>
-Package pdftex.def Info: graph_1.png used on input line 214.
+Package pdftex.def Info: graph_1.png used on input line 235.
 (pdftex.def)             Requested size: 156.18073pt x 106.79709pt.
 
 
@@ -1688,18 +1687,24 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 218.
+(Font)              scaled to size 8.0pt on input line 238.
 [2 <./cifar10.jpg>] <graph_2.png, id=16, 393.47pt x 266.9975pt>
 File: graph_2.png Graphic file (type png)
 
 <use graph_2.png>
-Package pdftex.def Info: graph_2.png used on input line 221.
+Package pdftex.def Info: graph_2.png used on input line 242.
 (pdftex.def)             Requested size: 157.38521pt x 106.79709pt.
- 
-AED: lastpage setting LastPage
-[3
 
- <./graph_1.png> <./graph_2.png>] (miniprojet.aux)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+
+ []
+
+
+AED: lastpage setting LastPage
+[3 <./graph_1.png> <./graph_2.png>] (miniprojet.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1713,13 +1718,13 @@ Package logreq Info: Writing requests to 'miniprojet.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16448 strings out of 493634
- 276259 string characters out of 3135240
- 739260 words of memory out of 3000000
- 19403 multiletter control sequences out of 15000+200000
- 109897 words of font info for 137 fonts, out of 3000000 for 9000
+ 16444 strings out of 493634
+ 276142 string characters out of 3135240
+ 743260 words of memory out of 3000000
+ 19404 multiletter control sequences out of 15000+200000
+ 109409 words of font info for 134 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 38i,14n,77p,1200b,1479s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,14n,77p,1316b,1479s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Shiro/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/xcharter/xc
 h_tuu2ww.enc}{C:/Users/Shiro/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/
 fontname/8r.enc}<C:/Users/Shiro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
@@ -1729,7 +1734,7 @@ al/Programs/MiKTeX 2.9/fonts/type1/public/xcharter/XCharter-Roman.pfb><C:/Users
 /Shiro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.p
 fb><C:/Users/Shiro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/u
 hvb8a.pfb>
-Output written on miniprojet.pdf (3 pages, 210301 bytes).
+Output written on miniprojet.pdf (3 pages, 211324 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
