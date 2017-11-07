@@ -15,7 +15,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.mixture import GMM
 import time
-
+from skimage import feature
 def get_raw_data(train_file):
     data = []
     label = []
@@ -48,8 +48,20 @@ def get_features(datas, labels):
         Y.append(temp)
     return np.asarray(X), np.asarray(Y)
         
-        
-        
+def get_data_hog(train_file, path):
+    data = []
+    label = []
+    with open(path + train_file, 'r') as f:
+        for datas in f:
+            datas = datas.split()
+            data.append(feature.hog(cv2.imread(path + datas[0], 0), block_norm = 'L2', feature_vector=True))
+            label.append(datas[1])
+    return data, label      
+    
+def accuracy_per_class(pred, label):
+    conf = sklearn.metrics.confusion_matrix(label, pred)
+    print(conf)
+    return np.diag(conf)/conf.sum(axis=1)
 def __init__():
     x_train, y_train = get_features('cifar_train.data', 'cifar_train.solution')
     x_test, y_test = get_features('cifar_test.data', 'cifar_test.solution')
@@ -57,7 +69,11 @@ def __init__():
     
     #x_train, y_train = get_raw_data('train.txt')
     #x_test, y_test = get_raw_data('test.txt') 
-    #x_valid, y_valid = get_raw_data('validation.txt') 
+    #x_valid, y_valid = get_raw_data('validation.txt')
+#    path = 'D:/Databases/cifar/'
+#    x_train, y_train = get_data_hog('train.txt', path)
+#    x_test, y_test = get_data_hog('test.txt', path) 
+#    x_valid, y_valid = get_data_hog('validation.txt', path) 
     
     print('### Decision Tree ###')
     clf = DecisionTreeClassifier(random_state=0)
@@ -66,7 +82,8 @@ def __init__():
     print('Time computing : ', time.time() - begin)
     clf_pred_test = clf.predict(x_test)
     clf_pred_valid = clf.predict(x_valid)
-    print("tree test accuracy :", sklearn.metrics.accuracy_score(clf_pred_test, y_test))
+    print("tree test accuracy :", sklearn.metrics.accuracy_score(clf_pred_test, y_test, normalize=False))
+    print("tree test accuracy per class: ", accuracy_per_class(clf_pred_test, y_test))
     print("tree validation accuracy :", sklearn.metrics.accuracy_score(clf_pred_valid, y_valid))
     print("tree test recall :", sklearn.metrics.recall_score(clf_pred_test, y_test, average='macro'))
     print("tree validation recall :", sklearn.metrics.recall_score(clf_pred_valid, y_valid, average='macro'))
@@ -83,6 +100,7 @@ def __init__():
     clf_forest_pred_test = clf_forest.predict(x_test)
     clf_forest_pred_valid = clf_forest.predict(x_valid)
     print("Forest test accuracy :", sklearn.metrics.accuracy_score(clf_forest_pred_test, y_test))
+    print("Forest test accuracy per class: ", accuracy_per_class(clf_forest_pred_test, y_test))
     print("Forest validation accuracy :", sklearn.metrics.accuracy_score(clf_forest_pred_valid, y_valid))
     print("Forest test recall :", sklearn.metrics.recall_score(clf_forest_pred_test, y_test, average='macro'))
     print("Forest validation recall :", sklearn.metrics.recall_score(clf_forest_pred_valid, y_valid, average='macro'))
@@ -101,6 +119,7 @@ def __init__():
     gnb_pred_test = gnb.predict(x_test)
     gnb_pred_valid = gnb.predict(x_valid)
     print("Bayes Gaussian test accuracy :", sklearn.metrics.accuracy_score(gnb_pred_test, y_test))
+    print("Bayes Gaussian test accuracy per class:", accuracy_per_class(gnb_pred_test, y_test))
     print("Bayes Gaussian validation accuracy :", sklearn.metrics.accuracy_score(gnb_pred_valid, y_valid))
     print("Bayes Gaussian test recall :", sklearn.metrics.recall_score(gnb_pred_test, y_test, average='macro'))
     print("Bayes Gaussian validation recall :", sklearn.metrics.recall_score(gnb_pred_valid, y_valid, average='macro'))
@@ -117,7 +136,8 @@ def __init__():
     nbm_pred_test = nbm.predict(x_test)
     nbm_pred_valid = nbm.predict(x_valid)
     print("Bayes Multinomial test accuracy :", sklearn.metrics.accuracy_score(nbm_pred_test, y_test))
-    print("Bayes Multinomial validation accuracy :", sklearn.metrics.accuracy_score(nbm_pred_valid, y_valid))
+    print("Bayes Multinomial test accuracy :", sklearn.metrics.accuracy_score(nbm_pred_test, y_test))
+    print("Bayes Multinomial validation accuracy per class:", accuracy_per_class(nbm_pred_valid, y_valid))
     print("Bayes Multinomial test recall :", sklearn.metrics.recall_score(nbm_pred_test, y_test, average='macro'))
     print("Bayes Multinomial validation recall :", sklearn.metrics.recall_score(nbm_pred_valid, y_valid, average='macro'))
     print("Bayes Multinomial test precision :", sklearn.metrics.precision_score(nbm_pred_test, y_test, average='macro'))
@@ -133,6 +153,7 @@ def __init__():
     clf_svm_pred_test = clf_svm.predict(x_test)
     clf_svm_pred_valid = clf_svm.predict(x_valid)
     print("SVM Kernel test accuracy :", sklearn.metrics.accuracy_score(clf_svm_pred_test, y_test))
+    print("SVM Kernel test accuracy per class:", accuracy_per_class(clf_svm_pred_test, y_test))
     print("SVM Kernel validation accuracy :", sklearn.metrics.accuracy_score(clf_svm_pred_valid, y_valid))
     print("SVM Kernel test recall :", sklearn.metrics.recall_score(clf_svm_pred_test, y_test, average='macro'))
     print("SVM Kernel validation recall :", sklearn.metrics.recall_score(clf_svm_pred_valid, y_valid, average='macro'))
@@ -149,6 +170,7 @@ def __init__():
     clf_svm_pred_test = clf_svm.predict(x_test)
     clf_svm_pred_valid = clf_svm.predict(x_valid)
     print("SVM Linear test accuracy :", sklearn.metrics.accuracy_score(clf_svm_pred_test, y_test))
+    print("SVM Linear test accuracy per class:", accuracy_per_class(clf_svm_pred_test, y_test))
     print("SVM Linear validation accuracy :", sklearn.metrics.accuracy_score(clf_svm_pred_valid, y_valid))
     print("SVM Linear test recall :", sklearn.metrics.recall_score(clf_svm_pred_test, y_test, average='macro'))
     print("SVM Linear validation recall :", sklearn.metrics.recall_score(clf_svm_pred_valid, y_valid, average='macro'))
@@ -165,6 +187,7 @@ def __init__():
     clf_svm_pred_test = clf_svm.predict(x_test)
     clf_svm_pred_valid = clf_svm.predict(x_valid)
     print("SVM Poly test accuracy :", sklearn.metrics.accuracy_score(clf_svm_pred_test, y_test))
+    print("SVM Poly test accuracy per class :", accuracy_per_class(clf_svm_pred_test, y_test))
     print("SVM Poly validation accuracy :", sklearn.metrics.accuracy_score(clf_svm_pred_valid, y_valid))
     print("SVM Poly test recall :", sklearn.metrics.recall_score(clf_svm_pred_test, y_test, average='macro'))
     print("SVM Poly validation recall :", sklearn.metrics.recall_score(clf_svm_pred_valid, y_valid, average='macro'))

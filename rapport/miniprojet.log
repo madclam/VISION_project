@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.5.4)  3 NOV 2017 15:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.1)  7 NOV 2017 19:49
 entering extended mode
 **./miniprojet.tex
 (miniprojet.tex
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9n> and hyphenation patterns for 69 languages loaded.
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -21,21 +21,21 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 ) (structure.tex
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2016/01/08 3.9n The Babel package
 *************************************
 * Local config file bblopts.cfg used
 *
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\bblopts.c
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\bblopts.c
 fg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\engl
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\engl
 ish.ldf"
 Language: english 2012/08/20 v3.3p English support from the babel system
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2016/01/08 3.9n Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
@@ -44,59 +44,58 @@ File: babel.def 2016/01/08 3.9n Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\microtyp
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\microtyp
 e.sty"
-Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
+Package: microtype 2017/07/07 v2.7 Micro-typographical refinements (RS)
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
 y"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 \MT@toks=\toks15
 \MT@count=\count88
-LaTeX Info: Redefining \textls on input line 774.
+LaTeX Info: Redefining \textls on input line 789.
 \MT@outer@kern=\dimen104
-LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
+LaTeX Info: Redefining \textmicrotypecontext on input line 1334.
 \MT@listname@count=\count89
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\microtyp
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\microtyp
 e-pdftex.def"
-File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 916.
-LaTeX Info: Redefining \lslig on input line 916.
+File: microtype-pdftex.def 2017/07/07 v2.7 Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 912.
+LaTeX Info: Redefining \lslig on input line 912.
 \MT@outer@space=\skip43
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\microtyp
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\microtyp
 e.cfg"
-File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
+File: microtype.cfg 2017/07/07 v2.7 microtype main configuration file (RS)
 ))
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
 y"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
 y"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
 "
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen105
 ))
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
 "
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen106
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
 "
 Package: amsopn 1999/12/14 v2.01 operator names
 )
@@ -138,7 +137,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
 sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
@@ -146,7 +145,7 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
 Package: amsthm 2015/03/04 v2.20.2
 \thm@style=\toks21
 \thm@bodyfont=\toks22
@@ -157,48 +156,48 @@ Package: amsthm 2015/03/04 v2.20.2
 \thm@postskip=\skip48
 \thm@headsep=\skip49
 \dth@everypar=\toks26
-) ("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.st
+) ("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.st
 y"
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\color.cfg
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\color.cfg
 "
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.
 def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
 rr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
 .sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count102
 )
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\svgnam.def"
-File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\svgnam.def"
+File: svgnam.def 2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
 ))
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.st
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.st
 y"
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.s
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.s
 ty"
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
@@ -212,7 +211,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 )
 \c@ContinuedFloat=\count103
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\booktabs\booktabs.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\booktabs\booktabs.
 sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen121
@@ -233,22 +232,22 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count107
 \@thisrulewidth=\dimen133
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lastpage\lastpage.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lastpage\lastpage.
 sty"
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
 sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
 sty"
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\graphics.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\graphics.
 cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
@@ -257,7 +256,7 @@ Package graphics Info: Driver file: pdftex.def on input line 94.
 \Gin@req@height=\dimen134
 \Gin@req@width=\dimen135
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumitem.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumitem.
 sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip50
@@ -266,26 +265,26 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box28
 \enitdp@description=\count108
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\sectsty\sectsty.st
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\sectsty\sectsty.st
 y"
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
 sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
 ty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.
 sty"
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.
 sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
@@ -302,27 +301,27 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen144
 \Gm@dimlist=\toks28
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
 cfg"))
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks29
 \inpenc@posthook=\toks30
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -482,7 +481,7 @@ File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -523,7 +522,7 @@ File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -547,21 +546,21 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcharter\XCharter.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcharter\XCharter.
 sty"
 Package: XCharter 2017/09/19 v1.1
 
 `XCharter' v1.1, 2017/09/19 Text macros for XCharter, an extension of Charter (
 msharpe)
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2aenc.de
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2aenc.de
 f"
 File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
 Now handling font encoding T2A ...
 ... processing UTF-8 mapping file for font encoding T2A
- ("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t2aenc.dfu"
+ ("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t2aenc.dfu"
 File: t2aenc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A4 (decimal 164)
    defining Unicode char U+00A7 (decimal 167)
@@ -749,11 +748,11 @@ File: t2aenc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+2329 (decimal 9001)
    defining Unicode char U+232A (decimal 9002)
    defining Unicode char U+2423 (decimal 9251)
-)) ("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ly1\ly1enc.def"
+)) ("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ly1\ly1enc.def"
 File: ly1enc.def 2009/07/22 v0.7 TeX 'n ANSI encoding (DPC/KB)
 Now handling font encoding LY1 ...
 ... processing UTF-8 mapping file for font encoding LY1
- ("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ly1enc.dfu"
+ ("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ly1enc.dfu"
 File: ly1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -872,15 +871,15 @@ File: ly1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+2039 (decimal 8249)
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2122 (decimal 8482)
-)) ("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
+)) ("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 105.
- ("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
+ ("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ))
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -894,12 +893,12 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
 File: ts1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -1035,7 +1034,7 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mweights\mweights.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mweights\mweights.
 sty"
 Package: mweights 2017/03/30 (Bob Tennent) Support package for multiple-weight 
 font packages. 
@@ -1045,12 +1044,12 @@ LaTeX Info: Redefining \rmfamily on input line 38.
 LaTeX Info: Redefining \sffamily on input line 66.
 LaTeX Info: Redefining \ttfamily on input line 94.
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.
 sty"
-Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count112
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontaxes\fontaxes.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontaxes\fontaxes.
 sty"
 Package: fontaxes 2014/03/23 v1.0d Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
@@ -1058,13 +1057,13 @@ LaTeX Info: Redefining \itshape on input line 31.
 LaTeX Info: Redefining \slshape on input line 33.
 LaTeX Info: Redefining \scshape on input line 37.
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.st
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.st
 y"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.
 tex"
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutils
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutils
 .tex"
 \XKV@toks=\toks31
 \XKV@tempa@toks=\toks32
@@ -1072,7 +1071,7 @@ tex"
 \XKV@depth=\count113
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.
 sty"
 \fancy@headwidth=\skip51
 \f@ncyO@elh=\skip52
@@ -1084,14 +1083,14 @@ sty"
 \f@ncyO@olf=\skip58
 \f@ncyO@orf=\skip59
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titling\titling.st
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titling\titling.st
 y"
 Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmarkwidth=\skip60
 \thanksmargin=\skip61
 \droptitle=\skip62
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lettrine\lettrine.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lettrine\lettrine.
 sty"
 File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
 \c@DefaultLines=\count114
@@ -1119,18 +1118,18 @@ File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
 
 Loading lettrine.cfg
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lettrine\lettrine.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lettrine\lettrine.
 cfg"))
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fix-cm.sty"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fix-cm.sty"
 Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xstring\xstring.st
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xstring\xstring.st
 y"
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xstring\xstring.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xstring\xstring.
 tex"
 \@xs@message=\write3
 \integerpart=\count118
@@ -1138,16 +1137,16 @@ tex"
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
 sty"
 Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
 mds.sty"
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
 x.sty"
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
@@ -1157,15 +1156,15 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
 .sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
 ys.sty"
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
 s.sty"
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
@@ -1173,15 +1172,15 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count120
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.def"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) ("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+)) ("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
 "
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) ("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+) ("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -1239,7 +1238,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-dm.de
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-dm.de
 f")
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
@@ -1320,14 +1319,14 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-compa
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-compa
 t.def"
 File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
 )
 Package biblatex Info: Trying to load BibTeX backend compatibility...
 Package biblatex Info: ... file 'blx-bibtex.def' found.
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-bibte
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-bibte
 x.def"
 File: blx-bibtex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
 
@@ -1339,7 +1338,7 @@ Package biblatex Warning: Using fall-back BibTeX(8) backend:
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
 def"
 File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
 \c@textcitecount=\count294
@@ -1353,20 +1352,20 @@ File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-natbi
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-natbi
 b.def"
 File: blx-natbib.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\autho
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\autho
 ryear.bbx"
 File: authoryear.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\stand
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\stand
 ard.bbx"
 File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
 \c@bbx:relatedcount=\count301
@@ -1375,7 +1374,7 @@ File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\cbx\autho
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\cbx\autho
 ryear.cbx"
 File: authoryear.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
 Package biblatex Info: Redefining '\cite'.
@@ -1389,11 +1388,11 @@ Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
 cfg"
 File: biblatex.cfg 
 )))
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.
 sty"
 Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
 \csq@reset=\count303
@@ -1404,20 +1403,20 @@ Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
 \csq@tshold=\count308
 \csq@ltx@everypar=\toks33
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.
 def"
 File: csquotes.def 2017/03/11 v5.2b csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.
 cfg"
 File: csquotes.cfg 
 )
 Package csquotes Info: Enabling multilingual quotes.
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count309
 \float@exts=\toks34
@@ -1426,56 +1425,56 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box32
 )
 LaTeX Font Info:    Try loading font information for T1+XCharter-TLF on input l
-ine 48.
+ine 57.
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcharter\t1xcharte
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcharter\t1xcharte
 r-tlf.fd"
 File: T1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for T1/XCharter-
 TLF.
 )
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 48.
+(Font)              scaled to size 10.0pt on input line 57.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\engli
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\engli
 sh.lbx"
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
-
-No file miniprojet.aux.
+ (miniprojet.aux)
 \openout1 = `miniprojet.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 48.
-LaTeX Font Info:    Try loading font information for T2A+cmr on input line 48.
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 57.
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 57.
+
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cyrillic\t2acmr.fd
 "
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 48.
-LaTeX Font Info:    Try loading font information for LY1+ptm on input line 48.
- ("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ly1\ly1ptm.fd"
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 57.
+LaTeX Font Info:    Try loading font information for LY1+ptm on input line 57.
+ ("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ly1\ly1ptm.fd"
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Info: Redefining \microtypecontext on input line 48.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Info: Redefining \microtypecontext on input line 57.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1485,12 +1484,13 @@ Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `XCharter-TLF' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-bch.c
+fg"
+File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
+
+)
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count310
@@ -1510,7 +1510,7 @@ Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 48.
+(lastpage)             ! on input line 57.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1559,102 +1559,103 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'miniprojet.bbl' not found.
 No file miniprojet.bbl.
-Package biblatex Info: Reference section=0 on input line 48.
-Package biblatex Info: Reference segment=0 on input line 48.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 50.
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
+Package biblatex Info: Reference section=0 on input line 57.
+Package biblatex Info: Reference segment=0 on input line 57.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 59.
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
-Package microtype Info: Loading generic settings for font family
+Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 50.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 64.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 64.
+(Font)              scaled to size 10.0pt on input line 59.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 59.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 59.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 73.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 14.4pt on input line 73.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 68.
+(Font)              scaled to size 10.0pt on input line 78.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/XCharter-TLF/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 28.93999pt on input line 68.
+(Font)              scaled to size 28.93999pt on input line 78.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 42.56212pt on input line 68.
+(Font)              scaled to size 42.56212pt on input line 78.
+
+Underfull \hbox (badness 2057) in paragraph at lines 78--79
+\T1/XCharter-TLF/b/n/10 21th cen-tury. We can note for ex-am-ple the
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 78--79
+\T1/XCharter-TLF/b/n/10 Google-Car project, the Testla Au-topi-lot or the
+ []
+
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 68.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 78.
+(Font)              scaled to size 12.0pt on input line 88.
 
-LaTeX Warning: Citation '1' on page 1 undefined on input line 79.
+LaTeX Warning: Citation '1' on page 1 undefined on input line 89.
 
 
-LaTeX Warning: Reference `fig:cifar10' on page 1 undefined on input line 79.
-
-
-LaTeX Warning: Reference `tab1' on page 1 undefined on input line 79.
-
-
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-cmr.c
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-cmr.c
 fg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 81.
+LaTeX Font Info:    Try loading font information for U+msa on input line 91.
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msa.c
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msa.c
 fg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 81.
+LaTeX Font Info:    Try loading font information for U+msb on input line 91.
 
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-("C:\Users\shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msb.c
+("C:\Users\Shiro\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msb.c
 fg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 106.
+(Font)              scaled to size 9.0pt on input line 116.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 106.
+(Font)              scaled to size 9.0pt on input line 116.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 106.
+(Font)              scaled to size 9.0pt on input line 116.
 
 
-LaTeX Warning: Reference `tab2' on page 1 undefined on input line 111.
+LaTeX Warning: Citation '2' on page 1 undefined on input line 121.
 
 
-LaTeX Warning: Citation '2' on page 1 undefined on input line 111.
+LaTeX Warning: Citation '3' on page 1 undefined on input line 121.
 
-
-LaTeX Warning: Citation '3' on page 1 undefined on input line 111.
-
-
-LaTeX Warning: Reference `fig:graph_1' on page 1 undefined on input line 115.
-
-[1{C:/Users/shiro/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+[1{C:/Users/Shiro/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
 <cifar10.jpg, id=9, 359.09157pt x 278.54062pt>
 File: cifar10.jpg Graphic file (type jpg)
  <use cifar10.jpg>
-Package pdftex.def Info: cifar10.jpg used on input line 137.
+Package pdftex.def Info: cifar10.jpg used on input line 129.
 (pdftex.def)             Requested size: 231.88997pt x 179.8762pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 124--131
 
-LaTeX Warning: Reference `tab3' on page 2 undefined on input line 142.
+ []
 
 
-Overfull \hbox (50.65681pt too wide) in paragraph at lines 146--166
+Overfull \hbox (20.20268pt too wide) in paragraph at lines 133--147
 []  [] 
  []
 
@@ -1662,31 +1663,23 @@ Overfull \hbox (50.65681pt too wide) in paragraph at lines 146--166
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-
-LaTeX Warning: Reference `fig:graph_1' on page 2 undefined on input line 169.
-
-
-LaTeX Warning: Reference `tab3' on page 2 undefined on input line 169.
+Overfull \hbox (50.65681pt too wide) in paragraph at lines 156--176
+[]  [] 
+ []
 
 
-LaTeX Warning: Reference `fig:graph_1' on page 2 undefined on input line 169.
+Overfull \hbox (207.4865pt too wide) in paragraph at lines 180--206
+[]  [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <graph_1.png, id=10, 390.45876pt x 266.9975pt>
 File: graph_1.png Graphic file (type png)
  <use graph_1.png>
-Package pdftex.def Info: graph_1.png used on input line 174.
+Package pdftex.def Info: graph_1.png used on input line 214.
 (pdftex.def)             Requested size: 156.18073pt x 106.79709pt.
-
-<graph_2.png, id=12, 393.47pt x 266.9975pt>
-File: graph_2.png Graphic file (type png)
- <use graph_2.png>
-Package pdftex.def Info: graph_2.png used on input line 181.
-(pdftex.def)             Requested size: 157.38521pt x 106.79709pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 193.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1695,29 +1688,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 193.
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 193.
+(Font)              scaled to size 8.0pt on input line 218.
+[2 <./cifar10.jpg>] <graph_2.png, id=16, 393.47pt x 266.9975pt>
+File: graph_2.png Graphic file (type png)
 
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 193.
-
-[2 <./cifar10.jpg> <./graph_1.png> <./graph_2.png>]
-
-Package lastpage Warning: Rerun to get the references right on input line 201.
-
-
+<use graph_2.png>
+Package pdftex.def Info: graph_2.png used on input line 221.
+(pdftex.def)             Requested size: 157.38521pt x 106.79709pt.
+ 
 AED: lastpage setting LastPage
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 201.
-
 [3
 
-] (miniprojet.aux)
+ <./graph_1.png> <./graph_2.png>] (miniprojet.aux)
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
@@ -1729,25 +1713,25 @@ Package logreq Info: Writing requests to 'miniprojet.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16372 strings out of 493634
- 274666 string characters out of 3135240
- 732321 words of memory out of 3000000
- 19352 multiletter control sequences out of 15000+200000
- 113764 words of font info for 125 fonts, out of 3000000 for 9000
+ 16448 strings out of 493634
+ 276259 string characters out of 3135240
+ 739260 words of memory out of 3000000
+ 19403 multiletter control sequences out of 15000+200000
+ 109897 words of font info for 137 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 40i,15n,77p,1207b,1486s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/shiro/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/xcharter/xc
-h_tuu2ww.enc}{C:/Users/shiro/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/
-fontname/8r.enc}<C:/Users/shiro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/xcharter/XCharter-Bold.pfb><C:/Users/shiro/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/xcharter/XCharter-Italic.pfb><C:/Users/shiro/AppData/Loc
+ 38i,14n,77p,1200b,1479s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Shiro/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/xcharter/xc
+h_tuu2ww.enc}{C:/Users/Shiro/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/
+fontname/8r.enc}<C:/Users/Shiro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/xcharter/XCharter-Bold.pfb><C:/Users/Shiro/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/xcharter/XCharter-Italic.pfb><C:/Users/Shiro/AppData/Loc
 al/Programs/MiKTeX 2.9/fonts/type1/public/xcharter/XCharter-Roman.pfb><C:/Users
-/shiro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.p
-fb><C:/Users/shiro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/u
+/Shiro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.p
+fb><C:/Users/Shiro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/u
 hvb8a.pfb>
-Output written on miniprojet.pdf (3 pages, 200176 bytes).
+Output written on miniprojet.pdf (3 pages, 210301 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31760 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 31248 words of extra memory for PDF output out of 35830 (max. 10000000)
 
