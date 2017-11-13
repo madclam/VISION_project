@@ -176,7 +176,7 @@ if __name__=="__main__" and debug_mode<4:
         # ======== Creating a data object with data, informations about it
         vprint( verbose,  "========= Reading and converting data ==========")
         D = DataManager(basename, input_dir, replace_missing=True, filter_features=True, max_samples=max_samples, verbose=verbose)
-        print D
+        print(D)
         vprint( verbose,  "[+] Size of uploaded data  %5.2f bytes" % data_io.total_size(D))
         
         # ======== Keeping track of time
