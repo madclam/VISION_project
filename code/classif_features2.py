@@ -1,22 +1,22 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Oct 24 12:07:57 2017
-
 @author: Shiro
 """
 import numpy as np
-#import cv2
+# import cv2
 import sklearn
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
-from sklearn.cluster import  KMeans
+from sklearn.cluster import KMeans
 from sklearn.naive_bayes import GaussianNB
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.mixture import GMM
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 import time
+
 
 def get_raw_data(train_file):
     data = []
@@ -27,10 +27,8 @@ def get_raw_data(train_file):
             data.append((cv2.imread(datas[0], 0)).flatten())
             label.append(datas[1])
     return data, label
-    
-    
-    
-    
+
+
 def get_features(datas, labels):
     f = open(datas, 'r')
     f2 = open(labels, 'r')
@@ -54,20 +52,21 @@ def get_features(datas, labels):
 def acp_compute(x_train, x_test, x_valid, n_dim):
     list_acp = []
     for value in range(n_dim):
-        pca = PCA(n_components=value+1)
+        pca = PCA(n_components=value + 1)
         print(pca.fit(x_train))
         print(pca.explained_variance_ratio_)
         sum_ = sum(pca.explained_variance_ratio_)
 
-        x_train_ = PCA(n_components=value+1).fit(x_train).transform(x_train)
-        x_test_ = PCA(n_components=value+1).fit(x_train).transform(x_test)
-        x_valid_ = PCA(n_components=value+1).fit(x_train).transform(x_valid)
+        x_train_ = PCA(n_components=value + 1).fit(x_train).transform(x_train)
+        x_test_ = PCA(n_components=value + 1).fit(x_train).transform(x_test)
+        x_valid_ = PCA(n_components=value + 1).fit(x_train).transform(x_valid)
 
-        list_acp.append([value+1, x_train_, x_test_, x_valid_, sum_])
+        list_acp.append([value + 1, x_train_, x_test_, x_valid_, sum_])
 
     return list_acp
 
-def model_score (x_train, x_test, x_valid, y_train, y_test, y_valid):
+
+def model_score(x_train, x_test, x_valid, y_train, y_test, y_valid):
     # x_train, y_train = get_raw_data('train.txt')
     # x_test, y_test = get_raw_data('test.txt')
     # x_valid, y_valid = get_raw_data('validation.txt')
@@ -92,7 +91,7 @@ def model_score (x_train, x_test, x_valid, y_train, y_test, y_valid):
     f1_arbre = sklearn.metrics.f1_score(clf_pred_test, y_test, average='macro')
 
     print('\n### Random Forest ###')
-    clf_forest = RandomForestClassifier(max_depth=2, random_state=0, n_estimators= 500)
+    clf_forest = RandomForestClassifier(max_depth=2, random_state=0, n_estimators=500)
     begin = time.time()
     clf_forest.fit(x_train, y_train)
     tps_rd = time.time() - begin
@@ -104,7 +103,8 @@ def model_score (x_train, x_test, x_valid, y_train, y_test, y_valid):
     print("Forest test recall :", sklearn.metrics.recall_score(clf_forest_pred_test, y_test, average='macro'))
     print("Forest validation recall :", sklearn.metrics.recall_score(clf_forest_pred_valid, y_valid, average='macro'))
     print("Forest test precision :", sklearn.metrics.precision_score(clf_forest_pred_test, y_test, average='macro'))
-    print("Forest validation precision :", sklearn.metrics.precision_score(clf_forest_pred_valid, y_valid, average='macro'))
+    print(
+    "Forest validation precision :", sklearn.metrics.precision_score(clf_forest_pred_valid, y_valid, average='macro'))
     print("Forest test F1 :", sklearn.metrics.f1_score(clf_forest_pred_test, y_test, average='macro'))
     print("Forest validation F1 :", sklearn.metrics.f1_score(clf_forest_pred_valid, y_valid, average='macro'))
     print(len(y_valid))
@@ -145,7 +145,7 @@ def model_score (x_train, x_test, x_valid, y_train, y_test, y_valid):
     # print("Bayes Multinomial validation F1 :", sklearn.metrics.f1_score(nbm_pred_valid, y_valid, average='macro'))
 
     print('\n### SVM rbf ###')
-    clf_svm = SVC(C=1.0, kernel = 'rbf')
+    clf_svm = SVC(C=1.0, kernel='rbf')
     begin = time.time()
     clf_svm.fit(x_train, y_train)
     tps_rbf = time.time() - begin
@@ -157,7 +157,8 @@ def model_score (x_train, x_test, x_valid, y_train, y_test, y_valid):
     print("SVM Kernel test recall :", sklearn.metrics.recall_score(clf_svm_pred_test, y_test, average='macro'))
     print("SVM Kernel validation recall :", sklearn.metrics.recall_score(clf_svm_pred_valid, y_valid, average='macro'))
     print("SVM Kernel test precision :", sklearn.metrics.precision_score(clf_svm_pred_test, y_test, average='macro'))
-    print("SVM Kernel validation precision :", sklearn.metrics.precision_score(clf_svm_pred_valid, y_valid, average='macro'))
+    print(
+    "SVM Kernel validation precision :", sklearn.metrics.precision_score(clf_svm_pred_valid, y_valid, average='macro'))
     print("SVM Kernel test F1 :", sklearn.metrics.f1_score(clf_svm_pred_test, y_test, average='macro'))
     print("SVM Kernel validation F1 :", sklearn.metrics.f1_score(clf_svm_pred_valid, y_valid, average='macro'))
 
@@ -196,11 +197,12 @@ def model_score (x_train, x_test, x_valid, y_train, y_test, y_valid):
 
     return [f1_arbre, f1_rf, f1_svm], [tps_arbre, tps_rd, tps_rbf]
 
-def score_acp(list_acp, y_train, y_test,y_valid):
+
+def score_acp(list_acp, y_train, y_test, y_valid):
     list_score = []
     list_tps = []
     for value in list_acp:
-        score, tps = model_score(value[1], value[2], value[3], y_train, y_test,y_valid)
+        score, tps = model_score(value[1], value[2], value[3], y_train, y_test, y_valid)
         score.append(value[0])
         tps.append(value[0])
         list_score.append(score)
@@ -209,32 +211,34 @@ def score_acp(list_acp, y_train, y_test,y_valid):
     plt.figure()
     ax = plt.subplot(111)
     ax.plot([value[0] for value in list_acp], [value[-1] for value in list_acp], label="Variance conserved")
-    ax.plot([value[-1] for value in list_score], [value[0] for value in list_score], label ="f1_decision_tree")
+    ax.plot([value[-1] for value in list_score], [value[0] for value in list_score], label="f1_decision_tree")
     ax.plot([value[-1] for value in list_score], [value[1] for value in list_score], label="f1_random_forest")
     ax.plot([value[-1] for value in list_score], [value[2] for value in list_score], label="f1_svm_rbf")
-    ax.legend(loc = "lower right")
+    ax.legend(loc="lower right")
     plt.xlabel("ACP dimension")
     plt.ylabel("Variance conserved - F1 score")
     plt.show()
 
-    plt.plot([value[-1] for value in list_tps], [value[2] for value in list_tps], label="Computation time for SVM (rbf)")
+    plt.plot([value[-1] for value in list_tps], [value[2] for value in list_tps],
+             label="Computation time for SVM (rbf)")
     plt.xlabel("ACP dimension")
     plt.ylabel("Second")
     plt.show()
 
     return list_score, list_tps
 
+
 def __init__():
     x_train, y_train = get_features('cifar_train.data', 'cifar_train.solution')
     x_test, y_test = get_features('cifar_test.data', 'cifar_test.solution')
     x_valid, y_valid = get_features('cifar_validation.data', 'cifar_validation.solution')
 
-    list_acp = acp_compute (x_train, x_test, x_valid, 20)
-    list_score, list_tps = score_acp(list_acp, y_train, y_test,y_valid)
-
-
+    list_acp = acp_compute(x_train, x_test, x_valid, 20)
+    list_score, list_tps = score_acp(list_acp, y_train, y_test, y_valid)
 
     exit(0)
 
 
 __init__()
+
+
