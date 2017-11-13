@@ -1,1 +1,1 @@
-mse_metric
+accuracy_per_class
