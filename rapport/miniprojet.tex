@@ -150,7 +150,7 @@ results on this dataset, it permits to save learning time on model which is non-
 \end{table}
 
 \begin{table}[H]
-\hspace{-1.0 cm}
+\hspace{0 cm}
 \begin{tabular}{|l|c|c|c|c|}
   \hline
   Model & Accuracy & Recall & Precision & F1\\
@@ -180,7 +180,7 @@ results on this dataset, it permits to save learning time on model which is non-
 In this experiment, we tested differents models and compared their performance (Table \ref{tab3}, \ref{tab4}). The different metric used to determine the performance of our models are : accuracy, accuracy per class, recall, precision, F1-score (all with the weighted form to consider balance of label prediction). To validate results for all metrics, we used cross-validation with Stratified K-Fold method to preserve the distribution of the training set in all subsample. We computed confidence interval (95\%) to evaluate the variance of the prediction. We could also used the balanced accuracy metric instead of the regular accuracy but all class of the set are homogenous distributed (same numbers of examples per class) so the result is the same. We note that SVMs models are very efficient on the features extracted by the convolutional neural network and more accuracy equilibrate regarding the accuracy per class (cf Table \ref{tab4}) but it takes some time to construct the model contrary to the others models like tree or random forest which have lowest performances but they are faster to learn. We can also note that tree and random forest have more difficulty predict well a cat contrary to the others models (cf Table \ref{tab4}). However, the computing time of the prediction is pretty fast for all the models. To determine hyperparameters of models, using \textit{Gridsearch} is usefull. For SVM, hyperparameters are [C, kernel, gamma] and, for Random Forest, [criterion, max depth, max number of feature and specificity of leaf and split]. \textit{GridSearch} is time-consuming. We didn't realize this optimization due to strict time period.
 
 
-\begin{table}[!h]
+\begin{table}[H]
 \hspace{-0.3cm}
 \begin{tabular}{|l|c|c|c|c|c|}
   \hline
@@ -208,7 +208,7 @@ In this experiment, we tested differents models and compared their performance (
 \caption{\label{tab3}Classification's result with extraction features on the test set (Note: No cross-validation with SVM model due to computation time)}
 \end{table}
 
-\begin{table}[!h]                         
+\begin{table}[H]                         
 \hspace{-0.3cm}
 \begin{tabular}{|l|c|c|c|c|c|c|c|}                   
   \hline
@@ -237,17 +237,20 @@ In this experiment, we tested differents models and compared their performance (
 \end{tabular}
 \caption{\label{tab4} Accuracy per class with CNN extraction features on the test set}
 \end{table}
+\vspace{1cm}
 The results associated with the learning on the data processed by PCA are available on the
 figure \ref{fig:graph_1}. As we can see, performances are very similar to learning on the initial features (see table \ref{tab3} and figure \ref{fig:graph_1}) when the dimension is superior to 10. The use of PCA (or other method of reducing
 dimension) is left to the student's sensitivity because this stage of pre-processing is a matter of
 good understanding about how to learn a dataset. However this step is  not mandatory considering the potential lacking experience of the student.
+\vspace*{-15cm}
 \begin{figure}[H]
-\center
+	\center
+	%\vspace*{-40cm}
 	\includegraphics[scale=0.4]{graph_1.png} % Figure image
 	\caption{\label{fig:graph_1}Graph representing F1 score depending of the number of dimension} % Figure caption
 	 % Label for referencing with \ref{bear}
 \end{figure}
-
+\pagebreak
 \begin{figure}[H]
 \center
 	\includegraphics[scale=0.4]{graph_2.png} % Figure image
@@ -259,7 +262,7 @@ good understanding about how to learn a dataset. However this step is  not manda
 %----------------------------------------------------------------------------------------
 
 
-\vspace*{6cm}
+%\vspace*{6cm}
 \begin{thebibliography}{abcde}
 
 	\bibitem[1]{cifar} https://www.cs.toronto.edu/~kriz/cifar.html\\

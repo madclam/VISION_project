@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.1)  14 NOV 2017 15:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.1)  14 NOV 2017 16:14
 entering extended mode
 **./miniprojet.tex
 (miniprojet.tex
@@ -1652,7 +1652,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--129
  []
 
 
-Overfull \hbox (7.98999pt too wide) in paragraph at lines 153--169
+Overfull \hbox (36.44273pt too wide) in paragraph at lines 153--169
 []  [] 
  []
 
@@ -1694,24 +1694,29 @@ Overfull \hbox (207.4865pt too wide) in paragraph at lines 212--238
 <graph_1.png, id=17, 390.45876pt x 266.9975pt>
 File: graph_1.png Graphic file (type png)
  <use graph_1.png>
-Package pdftex.def Info: graph_1.png used on input line 246.
+Package pdftex.def Info: graph_1.png used on input line 249.
 (pdftex.def)             Requested size: 156.18073pt x 106.79709pt.
 
-<graph_2.png, id=18, 393.47pt x 266.9975pt>
+Underfull \vbox (badness 4492) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./graph_1.png>] <graph_2.png, id=22, 393.47pt x 266.9975pt>
 File: graph_2.png Graphic file (type png)
  <use graph_2.png>
-Package pdftex.def Info: graph_2.png used on input line 253.
+Package pdftex.def Info: graph_2.png used on input line 256.
 (pdftex.def)             Requested size: 157.38521pt x 106.79709pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
 
  []
 
-[3 <./graph_1.png> <./graph_2.png>] 
+
 AED: lastpage setting LastPage
 [4
 
-] (miniprojet.aux)
+ <./graph_2.png>] (miniprojet.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1741,7 +1746,7 @@ al/Programs/MiKTeX 2.9/fonts/type1/public/xcharter/XCharter-Roman.pfb><C:/Users
 /Shiro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.p
 fb><C:/Users/Shiro/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/u
 hvb8a.pfb>
-Output written on miniprojet.pdf (4 pages, 272603 bytes).
+Output written on miniprojet.pdf (4 pages, 272746 bytes).
 PDF statistics:
  45 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
