@@ -125,8 +125,9 @@ Before classifying the different images of our dataset, we need to preprocess th
 \subsection{Method}
 We consider our problem as a multi label classification therefore each image is associated to a label value between 0 and 9 included. The final step is to use a machine learning algorithm(using skicit learn for example) so as to be able to predict the class of an image. There are a lot of machine learning algorithm permitting to solve this problem so student have to classify the features with different models and choose the best they obtain. (Naives bayes, SVM, tree, …).
 If the student is familiar with the keras framework, he/she can also classify features with a simple neuronal network ! \\The set of data (features) have 256 dimensions and can be subject to a reduction of dimension in order to limit the training time of the models and to limit the difficulty associated to the Curse of Dimensionality. As we can see on the figure \ref{fig:graph_1}, using  principal component analysis (PCA), it is possible to lessen the number of features (about $73\%$ is conserved keeping only 10 dimensions, and about $80\%$ is conserved keeping only 20 dimensions). The reduction of dimension is an important pre-processing step and even if it is not essential to get
-results on this dataset, it permits to save learning time on model which is non-negligible.
-\\
+results on this dataset, it permits to save learning time on model which is non-negligible.\\
+
+\noindent To evaluate if the training set is sufficient (enough large), we evaluated the F1-score according to different size of subset. We validate estimations with Stratified K-Fold. Results can be viewed in the figure \ref{fig:size}. We can observe an increase until \~40k entities. After this threshold, the quality of the model stagnate so we can consider that our dataset is enough representative.
 
 \begin{table}[H]
 \hspace{-1.0 cm}
@@ -171,8 +172,12 @@ results on this dataset, it permits to save learning time on model which is non-
 	\includegraphics[width=\linewidth]{cifar10.jpg} % Figure image
 	\caption{\label{fig:cifar10}Representation of the dataset Cifar10}
 \end{figure}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{GraphOfScoreClassif3WithValidation.png} % Figure image
+	\caption{\label{fig:size}Representation of the dataset Cifar10}
+\end{figure}
 \section{Preliminary results}
-In this experiment, we tested differents models and compared their performance (Table \ref{tab3}, \ref{tab4}). The different metric used to determine the performance of our models are : accuracy, accuracy per class, recall, precision, F1-score. We could also used the balanced accuracy metric instead of the regular accuracy but all class of the set are homogenous distributed (same numbers of examples per class) so the result is the same. We note that SVMs models are very efficient on the features extracted by the convolutional neural network and more accuracy equilibrate regarding the accuracy per class (cf Table \ref{tab4}) but it takes some time to construct the model contrary to the others models like tree or random forest which have lowest performances but they are faster to learn. We can also note that tree and random forest have more difficulty predict well a cat contrary to the others models (cf Table \ref{tab4}).  However, the computing time of the prediction is pretty fast for all the models.
+In this experiment, we tested differents models and compared their performance (Table \ref{tab3}, \ref{tab4}). The different metric used to determine the performance of our models are : accuracy, accuracy per class, recall, precision, F1-score (all with the weighted form to consider balance of label prediction). To validate results for all metrics, we used cross-validation with Stratified K-Fold method to preserve the distribution of the training set in all subsample. We computed confidence interval (95\%) to evaluate the variance of the prediction. We could also used the balanced accuracy metric instead of the regular accuracy but all class of the set are homogenous distributed (same numbers of examples per class) so the result is the same. We note that SVMs models are very efficient on the features extracted by the convolutional neural network and more accuracy equilibrate regarding the accuracy per class (cf Table \ref{tab4}) but it takes some time to construct the model contrary to the others models like tree or random forest which have lowest performances but they are faster to learn. We can also note that tree and random forest have more difficulty predict well a cat contrary to the others models (cf Table \ref{tab4}). However, the computing time of the prediction is pretty fast for all the models. To determine hyperparameters of models, using \textit{Gridsearch} is usefull. For SVM, hyperparameters are [C, kernel, gamma] and, for Random Forest, [criterion, max depth, max number of feature and specificity of leaf and split]. \textit{GridSearch} is time-consuming. We didn't realize this optimization due to strict time period.
 
 
 \begin{table}[!h]
@@ -181,13 +186,17 @@ In this experiment, we tested differents models and compared their performance (
   \hline
   Model & Accuracy & Recall & Precision & F1 & \specialcell{Time \\(sec)}\\
   \hline
-  Tree & 0.797 & 0.798 & 0.797 & 0.797 & 16.73\\
+  Tree & 0.8157 & 0.8157 & 0.8159 & 0.8157 & 16.73\\
+       & (+/- 0.00437) & (+/- 0.00437) & (+/- 0.00501) & (+/- 0.00471) &\\
   \hline
-  \specialcell{Random\\ Forest} & 0.831 & 0.829 & 0.831 & 0.830 & 33.42\\
+  Random Forest & 0.8463 & 0.8463 & 0.8448 & 0.8449 & 33.42\\
+                                & (+/- 0.00471) & (+/- 0.00471) & (+/- 0.00469) & (+/- 0.00465) & \\
   \hline
-  \specialcell{Naives Bayes \\Gaussian} & 0.853 & 0.856 & 0.853 & 0.854 & 0.198\\
+  Na. Bay. Gaussian & 0.8691 & 0.8691 & 0.8719 & 0.8696 & 0.198\\
+  & (+/- 0.00285) & (+/- 0.00285) & (+/- 0.00297) & (+/- 0.00288)\\
   \hline
-  \specialcell{Naives Bayes \\ Multinomial} & 0.866 & 0.869 & 0.866 & 0.867 & \textbf{0.06}\\
+  Nai. Bay. Multinomial & 0.8830 & 0.8830 & 0.8866 & 0.8837 & \textbf{0.06}\\
+  & (+/- 0.00242) & (+/- 0.00242) & (+/- 0.00172) & (+/- 0.00213)\\
   \hline
    SVM rbf &\textbf{ 0.888} & \textbf{0.888} & \textbf{0.888} & \textbf{0.888} & 87.49\\
    \hline
@@ -196,7 +205,7 @@ In this experiment, we tested differents models and compared their performance (
    SVM Poly & 0.886 & 0.887 & 0.886 & 0.886 & 66.24\\
    \hline
 \end{tabular}
-\caption{\label{tab3}Classification's result with extraction features on the test set}
+\caption{\label{tab3}Classification's result with extraction features on the test set (Note: No cross-validation with SVM model due to computation time)}
 \end{table}
 
 \begin{table}[!h]                         
