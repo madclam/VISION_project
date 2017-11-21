@@ -74,7 +74,7 @@ max_time = 500
 # (base learners).
 max_cycle = 1 
 max_estimators = float('Inf')
-max_samples = 50000
+max_samples = float('Inf')
 
 # Save your model
 #################
